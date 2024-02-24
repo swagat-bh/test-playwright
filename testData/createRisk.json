@@ -1,0 +1,56 @@
+{
+    "risk_catalog_id": 1,
+    "risk_severity": "H",
+    "risk_status": "O",
+    "risk_effect": [
+        {
+            "risk_effect_id": 2
+        }
+    ],
+    "risk_category": [
+        {
+            "risk_category_id": 1
+        }
+    ],
+    "hazard": [
+        {
+            "hazard_id": 3
+        }
+    ],
+    "control": [
+        {
+            "control_id": 4,
+            "rank": 1
+        }
+    ],
+    "asset": [
+        "1",
+        "2"
+    ],
+    "mitigation": [
+        {
+            "mitigation_id": 1,
+            "pre_mitigation_score": 1,
+            "post_mitigation_score": 2,
+            "active": "Y",
+            "selected_on": "07/07/2023",
+            "applied_on": "07/07/2023",
+            "applied_by": "string3"
+        }
+    ],
+    "recovery": [
+        {
+            "recovery_id": 1,
+            "measures": "S",
+            "active": "Y",
+            "selected_on":"07/07/2023",
+            "applied_on": "07/07/2023",
+            "applied_by": "string3"
+        }
+    ],
+    "comment": {
+        "op": "ADD",
+        "path": "/comment",
+        "value": "Comment added: This is sample text"
+    }
+}
